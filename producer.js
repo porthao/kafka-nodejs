@@ -17,12 +17,12 @@ const producer = async () => {
     });
 
     // Another topic
-    await producer.send({
-        topic: 'testTopic2',
-        messages: [
-            { value: 'Test testTopic2' },
-        ],
-    });
+    // await producer.send({
+    //     topic: 'testTopic2',
+    //     messages: [
+    //         { value: 'Test testTopic2' },
+    //     ],
+    // });
 
     // Disconnect the producer once we’re done
     await producer.disconnect();

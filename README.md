@@ -6,4 +6,4 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 
 # Create kafka topic
-bin/kafka-topics.sh --create --topic demoTopic --bootstrap-server localhost:9092
+bin/kafka-topics.sh --create --topic testTopic1 --bootstrap-server localhost:9092
